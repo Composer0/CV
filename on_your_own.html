@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Your Own</title>
+    <!-- Not intended to be taken seriously -->
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgb(11, 11, 58);
+            color: #333;
+            background: url('./img/Neon\ Rain.jpg') center center;
+            background-attachment: fixed;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        #container {
+           margin: 30px auto;
+           max-width: 400px;
+           padding: 20px;
+        }
+        .form-wrap {
+            border: 10px;
+            background-color: white;
+            padding: 20px;
+            color: #333;
+        }
+        .form-wrap h1, .form-wrap p {
+            text-align: center;
+        }
+        .form-wrap p {
+            font-size: 13px;
+            font-style: italic;
+        }
+        .form-wrap .form-group {
+            margin-top: 15px;
+        }
+        .form-wrap .form-group label {
+            display: block;
+            color: #666;
+        }
+        .form-wrap .form-group input {
+            padding: 10px;
+            width: 100%;
+            border: #333 1px solid;
+            border-radius: 5px;
+        }
+        .form-wrap button {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 15px;
+            color: white;
+            background-color: rebeccapurple;
+        }
+        .form-wrap button:hover {
+            cursor: pointer;
+            background-color: rgb(140, 91, 189);
+        }
+        .form-wrap .bottomtext {
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .form-wrap .bottomtext a {
+            color: violet;
+        }
+        .form-wrap .bottomtext a:hover {
+            color: rgb(160, 43, 160);
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="form-wrap">
+            <h1>On Your Own?</h1>
+            <p>Look No Further
+                <br>
+                Sign Up Today
+                <br>
+                And Find A Real Family!
+            </p>
+            <form action="mailto:opalmer1989@gmail.com" method="post" enctype="text/plain">
+                <!-- Form Action is not yet operational. Haven't figured out how to turn a button in to a submit for the form action. -->
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname"/>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname"/>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"/>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password"/>
+                </div>
+                <div class="form-group">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" name="password2" id="password2"/>
+                </div>
+                <button type="button" class="button" value="submit">Submit</button>
+                <p class="bottomtext">For all inquiries <a href="#">Click Here</a>.</p>
+            <Footer>
+                <p>This has been brought to you by Orion Palmer.</p>
+            </Footer>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
