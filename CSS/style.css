@@ -1,0 +1,22 @@
+body {
+  background-color: #EAF6F6;
+}
+    /* white on its own doesn't always work because browsers have their own default css values applied. */
+hr {
+  border-color: grey;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+}
+/* color by itself changes text color. */
+h1{
+  color: #66BFBF;
+}
+h3{
+  color: #314646;
+}
+/* Creating a style sheet does not require the text for style to be present at the top and bottom of the page. */
+/* Developer note. Make sure CSS file is present within the folder in which its contents are going to apply towards. */
+/* selector {property:value;}
+Who? {What: How?;} */
